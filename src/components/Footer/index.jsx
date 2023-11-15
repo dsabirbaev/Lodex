@@ -1,11 +1,41 @@
 
-import "./style.scss";
+import {Insta, Facebook} from "../Icons"; 
 
 const index = () => {
     return (
-        <footer>
+        <footer className="pt-[30px] pb-[15px] border-t-[1px] border-t-black">
             <div className="container">
-                <h1>Footer</h1>
+                <div className="flex justify-between items-center">
+                    <div className="flex items-center gap-x-[120px]">
+                        <ul className="flex flex-col gap-y-[10px] text-[#8C8C8C] text-[15px]">
+                            <li className="mb-[15px] font-['InterBlack'] text-[20px] text-black">Категории</li>
+                            <li><a href="#">Мужское</a></li>
+                            <li><a href="#">Женское</a></li>
+                            <li><a href="#">Детское</a></li>
+                        </ul>
+                        <ul className="flex flex-col gap-y-[10px] text-[#8C8C8C] text-[15px]">
+                            <li className="mb-[15px] font-['InterBlack'] text-[20px] text-black">О нас</li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Правила пользования </a></li>
+                        </ul>
+                        <ul className="flex flex-col gap-y-[10px] text-[#8C8C8C] text-[15px]">
+                            <li className="mb-[15px] font-['InterBlack'] text-[20px] text-black">Мой аккаунт</li>
+                            <li><a href="#">Войти</a></li>
+                            <li><a href="#">Заказы</a></li>
+                            <li><a href="#">Список желаний</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul className="flex flex-col gap-y-[15px] text-[#8C8C8C] text-[15px]">
+                            <li className="mb-[10px] font-['InterBlack'] text-[20px] text-black"><a href="tel:+998 ( 99 ) 280 75 76">+998 ( 99 ) 280 75 76</a></li>
+                            <li><a href="mailto:example@gmail.com">example@gmail.com</a></li>
+                            <li><a href="mailto:example@mail.ru">example@mail.ru</a></li>
+                            <li className="cursor-pointer flex items-center gap-x-5"><Insta/> <Facebook /></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </footer>
     );

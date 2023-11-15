@@ -33,15 +33,13 @@ body {
   src: url(./assets/fonts/Inter/static/Inter-Regular.ttf);
 }
 
-
-@font-face {
-  font-family: NunitoRegular;
-  src: url(./assets/fonts/Nunito_Sans/static/NunitoSans_7pt_SemiExpanded-Regular.ttf);
-}
-
-
 @font-face {
   font-family: InterBlack;
   src: url(./assets/fonts/Inter/static/Inter-Black.ttf);
 }
 
+
+@font-face {
+  font-family: NunitoRegular;
+  src: url(./assets/fonts/Nunito_Sans/static/NunitoSans_7pt_SemiExpanded-Regular.ttf);
+}
