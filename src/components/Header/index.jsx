@@ -5,13 +5,13 @@ import { Heart, User } from "../Icons";
 import "./style.scss";
 const index = () => {
     return (
-        <header className="bg-white relative left-0 top-0 w-full z-50">
+        <header className="bg-white fixed left-0 top-0 w-full z-50">
             <div className="container">
                 <nav className="flex items-center justify-between h-[65px]">
-                    <a href="#"><img src={logo} alt="logo" /></a>
+                    <NavLink to="/"><img src={logo} alt="logo" /></NavLink>
 
                     <ul className="flex items-center gap-x-[50px] text-[16px]">
-                        <li><NavLink to="/men">Мужское</NavLink></li>
+                        <li><NavLink to="/">Мужское</NavLink></li>
                         <li><NavLink to="/women">Женское</NavLink></li>
                         <li><NavLink to="/kids">Детские</NavLink></li>
                         <li><NavLink to="/deal">Безопасная Сделка</NavLink></li>

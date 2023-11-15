@@ -1,6 +1,6 @@
 
 
-import "./style.scss";
+
 
 const Card = () => {
    

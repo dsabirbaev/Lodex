@@ -2,18 +2,17 @@
 
 import Intro from "../../components/UI/Intro";
 
-import { manIntro } from "../../assets";
+import { womanIntro } from "../../assets";
 
 const index = () => {
     return (
         <>
             <section className="py-[165px]">
                 <div className="container">
-                    <Intro pic={manIntro}/>
+                    <Intro pic={womanIntro} />
                 </div>
             </section>
         </>
-
     );
 };
 

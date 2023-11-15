@@ -4,9 +4,12 @@ import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import { createBrowserRouter } from "react-router-dom";
 
-import Layout from "../pages/Layout/Layout";
+import Layout from "../pages/Layout";
 import Home from "../pages/Home";
-import About from "../pages/About";
+import Women from "../pages/Women";
+import Kids from "../pages/Kids";
+import Deal from "../pages/Deal";
+import Rule from "../pages/Rule";
 import NotFound from "../pages/NotFound";
 
 
@@ -21,8 +24,20 @@ const router = createBrowserRouter([
                 element: <Home/>
             },
             {
-                path: "/about",
-                element: <About/>
+                path: "/women",
+                element: <Women/>
+            },
+            {
+                path: "/kids",
+                element: <Kids/>
+            },
+            {
+                path: "/deal",
+                element: <Deal/>
+            },
+            {
+                path: "/rule",
+                element: <Rule/>
             }
         ]
     }
