@@ -11,6 +11,17 @@ import {
     wFour,
     wFive,
     wSix,
+    kOne,
+    kTwo,
+    kThree,
+    kFour,
+    kFive,
+    kSix,
+    nike,
+    adidas,
+    reebok,
+    lacoste,
+    puma
 } from "../assets"
 
 const mencollection = [
@@ -103,6 +114,87 @@ const womencollection = [
     },
 ];
 
+const kidscollection = [
+    {
+        id: 1,
+        title: 'Kelldone',
+        price: '30.000',
+        img: kOne,
+        status: false
+    },
+    {
+        id: 2,
+        title: 'Kenzo Paris',
+        price: '32.000',
+        img: kTwo,
+        status: false
+    },
+    {
+        id: 3,
+        title: 'Moschino',
+        price: '45.000',
+        img: kThree,
+        status: false
+    },
+    {
+        id: 4,
+        title: 'Чёрный Palm Angels',
+        price: '35.000',
+        img: kFour,
+        status: true
+    },
+    {
+        id: 5,
+        title: 'Чёрный Balmain Paris',
+        price: '32.000',
+        img: kFive,
+        status: true
+    },
+    {
+        id: 6,
+        title: 'Белый Palm Angels',
+        price: '45.000',
+        img: kSix,
+        status: false
+    },
+];
 
 
-export {mencollection, womencollection};
+const brands = [
+    {
+        img: nike,
+    },
+    {
+        img: adidas,
+    },
+    {
+        img: reebok,
+    },
+    {
+        img: puma,
+    },
+    {
+        img: lacoste,
+    },
+    {
+        img: nike,
+    },
+    {
+        img: adidas,
+    },
+    {
+        img: reebok,
+    },
+    {
+        img: puma,
+    },
+    {
+        img: lacoste,
+    },
+    
+];
+
+
+
+
+export {mencollection, womencollection, kidscollection, brands};

@@ -24,4 +24,18 @@ import wFour from "./images/womancollection/4.png";
 import wFive from "./images/womancollection/5.png";
 import wSix from "./images/womancollection/6.png"; 
 
-export {logo, search, manIntro, womanIntro, kidsIntro, mOne, mTwo, mThree, mFour, mFive, mSix, wOne, wTwo, wThree, wFour, wFive, wSix};
+
+import kOne from "./images/kidscollection/1.png";
+import kTwo from "./images/kidscollection/2.png";
+import kThree from "./images/kidscollection/3.png";
+import kFour from "./images/kidscollection/4.png";
+import kFive from "./images/kidscollection/5.png";
+import kSix from "./images/kidscollection/6.png"; 
+
+import nike from "./images/brands/nike.png";
+import adidas from "./images/brands/adidas.png";
+import reebok from "./images/brands/reebook.png";
+import puma from "./images/brands/puma.png";
+import lacoste from "./images/brands/lacoste.png";
+
+export {logo, search, manIntro, womanIntro, kidsIntro, mOne, mTwo, mThree, mFour, mFive, mSix, wOne, wTwo, wThree, wFour, wFive, wSix, kOne, kTwo, kThree, kFour, kFive, kSix, nike, adidas, puma, lacoste, reebok};

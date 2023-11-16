@@ -2,6 +2,7 @@
 
 import Intro from "../../components/UI/Intro";
 import Collection from "../../components/Collection";
+import Brands from "../../components/Brands";
 import { manIntro } from "../../assets";
 import { mencollection } from "../../service/db";
 const index = () => {
@@ -16,6 +17,12 @@ const index = () => {
             <section>
                 <div className="container">
                     <Collection data={mencollection}/>
+                </div>
+            </section>
+
+            <section>
+                <div className="container">
+                   <Brands/>
                 </div>
             </section>
         </>

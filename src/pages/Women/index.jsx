@@ -13,7 +13,7 @@ const index = () => {
                 </div>
             </section>
 
-            <section>
+            <section className="pb-[60px]">
                 <div className="container">
                     <Collection data={womencollection}/>
                 </div>

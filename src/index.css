@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 * {
+  margin: 0px;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -34,6 +35,11 @@ body {
 @font-face {
   font-family: InterMedium;
   src: url(./assets/fonts/Inter/static/Inter-Medium.ttf);
+}
+
+@font-face {
+  font-family: InterExtraBold;
+  src: url(./assets/fonts/Inter/static/Inter-ExtraBold.ttf);
 }
 
 @font-face {
