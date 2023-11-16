@@ -3,7 +3,7 @@ import {Insta, Facebook} from "../Icons";
 
 const index = () => {
     return (
-        <footer className="pt-[30px] pb-[15px] border-t-[1px] border-t-black">
+        <footer className="pt-[30px] pb-[15px] border-t-[1px] border-t-black" style={{borderTop:'1px solid black'}}>
             <div className="container">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center gap-x-[120px]">

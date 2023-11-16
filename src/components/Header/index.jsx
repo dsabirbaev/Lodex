@@ -11,18 +11,18 @@ const index = () => {
                     <NavLink to="/"><img src={logo} alt="logo" /></NavLink>
 
                     <ul className="flex items-center gap-x-[50px] text-[16px]">
-                        <li><NavLink to="/" className="text-black">Мужское</NavLink></li>
-                        <li><NavLink to="/women" className="text-black">Женское</NavLink></li>
-                        <li><NavLink to="/kids" className="text-black">Детские</NavLink></li>
-                        <li><NavLink to="/deal" className="text-black">Безопасная Сделка</NavLink></li>
-                        <li><NavLink to="/rule" className="text-black">Правило Пользование</NavLink></li>
+                        <li><NavLink to="/" className="text-black hover:text-[#33CAFF]">Мужское</NavLink></li>
+                        <li><NavLink to="/women" className="text-black hover:text-[#33CAFF]">Женское</NavLink></li>
+                        <li><NavLink to="/kids" className="text-black hover:text-[#33CAFF]">Детские</NavLink></li>
+                        <li><NavLink to="/deal" className="text-black hover:text-[#33CAFF]">Безопасная Сделка</NavLink></li>
+                        <li><NavLink to="/rule" className="text-black hover:text-[#33CAFF]">Правило Пользование</NavLink></li>
                     </ul>
 
                     <div className="flex items-center gap-x-[43.13px]">
                         <Heart />
                         <User />
                     </div>
-                    <a href="tel:+998 ( 99 ) 280 75 76" className="text-black px-[11px] py-[7px] bg-[#33CAFF] text-[16px] font-['NunitoRegular'] border-none cursor-pointer">
+                    <a href="tel:+998 ( 99 ) 280 75 76" className="hover:opacity-[0.5] text-black px-[11px] py-[7px] bg-[#33CAFF] text-[16px] font-['NunitoRegular'] border-none cursor-pointer">
                         Contact Us
                     </a>
                 </nav>
