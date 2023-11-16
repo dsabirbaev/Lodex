@@ -21,7 +21,12 @@ import {
     adidas,
     reebok,
     lacoste,
-    puma
+    puma,
+    designer,
+    check,
+    settings,
+    money,
+    bag
 } from "../assets"
 
 const mencollection = [
@@ -194,7 +199,58 @@ const brands = [
     
 ];
 
+const designers = [
+    {   
+        id:1,
+        img: designer,
+        name: "Имя Фамилия"
+    },
+    {
+        id:2,
+        img: designer,
+        name: "Имя Фамилия"
+    },
+    {
+        id:3,
+        img: designer,
+        name: "Имя Фамилия"
+    },
+    {
+        id:4,
+        img: designer,
+        name: "Имя Фамилия"
+    },
+];
+
+const about = [
+    {   
+        id:1,
+        img: bag,
+        title: "Маркетплейс",
+        text: "Компания Lode X - позволяет людям редактировать свою одежду."
+    },
+    {
+        id:2,
+        img: check,
+        title: "Оригинал ",
+        text: "Мы следим за оригинальностью продаваемых вещей"
+    },
+    {
+        id:3,
+        img: settings,
+        title: "Подбор",
+        text: "Удобный подбор одежды по всем параметрам"
+    },
+    {
+        id:4,
+        img: money,
+        title: "Безопасная сделка",
+        text: "Безопасность платежей для покупателей и продавцов"
+    },
+];
 
 
 
-export {mencollection, womencollection, kidscollection, brands};
+
+
+export {mencollection, womencollection, kidscollection, brands, designers, about};

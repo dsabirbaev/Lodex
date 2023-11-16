@@ -38,4 +38,12 @@ import reebok from "./images/brands/reebook.png";
 import puma from "./images/brands/puma.png";
 import lacoste from "./images/brands/lacoste.png";
 
-export {logo, search, manIntro, womanIntro, kidsIntro, mOne, mTwo, mThree, mFour, mFive, mSix, wOne, wTwo, wThree, wFour, wFive, wSix, kOne, kTwo, kThree, kFour, kFive, kSix, nike, adidas, puma, lacoste, reebok};
+import designer from "./images/user.png";
+
+import bag from "./images/selectus/bag.png";
+import check from "./images/selectus/check.png";
+import money from "./images/selectus/money.png";
+import settings from "./images/selectus/settings.png";
+
+export {logo, search, manIntro, womanIntro, kidsIntro, mOne, mTwo, mThree, mFour, mFive, mSix, wOne, wTwo, wThree, wFour, wFive, wSix, kOne, kTwo, kThree, kFour, kFive, kSix, nike, adidas, puma, lacoste, 
+    reebok, designer, bag, check, money, settings};

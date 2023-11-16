@@ -3,6 +3,7 @@
 import Intro from "../../components/UI/Intro";
 import Collection from "../../components/Collection";
 import Brands from "../../components/Brands";
+import Designers from "../../components/Designers";
 import { manIntro } from "../../assets";
 import { mencollection } from "../../service/db";
 const index = () => {
@@ -23,6 +24,12 @@ const index = () => {
             <section>
                 <div className="container">
                    <Brands/>
+                </div>
+            </section>
+
+            <section>
+                <div className="container">
+                   <Designers/>
                 </div>
             </section>
         </>
