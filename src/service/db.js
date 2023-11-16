@@ -26,7 +26,11 @@ import {
     check,
     settings,
     money,
-    bag
+    bag,
+    bone,
+    btwo,
+    bthree,
+    bfour
 } from "../assets"
 
 const mencollection = [
@@ -249,8 +253,30 @@ const about = [
     },
 ];
 
+const blog = [
+    {   
+        id:1,
+        img: bone,
+        text: "Эта рубашка спасет Вы сэкономите 40$ при себе Следующая онлайн-покупка"
+    },
+    {
+        id:2,
+        img: btwo,
+        text: "История позади Lode X: Это Стильное  движение"
+    },
+    {
+        id:3,
+        img: bthree,
+        text: "Что надеть Мадрид: 8 нарядов для Сделайте так, чтобы вы выглядели местными"
+    },
+    {
+        id:4,
+        img: bfour,
+        text: "Руководство по покупке Костюм: Что ты Надо знать"
+    },
+];
 
 
 
 
-export {mencollection, womencollection, kidscollection, brands, designers, about};
+export {mencollection, womencollection, kidscollection, brands, designers, about, blog};

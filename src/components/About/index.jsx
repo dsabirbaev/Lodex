@@ -6,7 +6,7 @@ import "./style.scss";
 const index = () => {
     return (
         <div className="about-wrapper pt-[20px] pb-[75px]">
-            <div className="flex items-center justify-between mb-[70px]">
+            <div className="flex items-center justify-between mb-[40px]">
                 <h2 className="text-[30px] font-['InterExtraBold']">Почему вибирают именно  нас ?</h2>
                 <span></span>
             </div>

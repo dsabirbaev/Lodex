@@ -45,5 +45,10 @@ import check from "./images/selectus/check.png";
 import money from "./images/selectus/money.png";
 import settings from "./images/selectus/settings.png";
 
+import bone from "./images/blog/1.jpg";
+import btwo from "./images/blog/2.jpg";
+import bthree from "./images/blog/3.jpg";
+import bfour from "./images/blog/4.jpg";
+
 export {logo, search, manIntro, womanIntro, kidsIntro, mOne, mTwo, mThree, mFour, mFive, mSix, wOne, wTwo, wThree, wFour, wFive, wSix, kOne, kTwo, kThree, kFour, kFive, kSix, nike, adidas, puma, lacoste, 
-    reebok, designer, bag, check, money, settings};
+    reebok, designer, bag, check, money, settings, bone, btwo, bthree, bfour};

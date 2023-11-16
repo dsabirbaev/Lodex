@@ -5,6 +5,7 @@ import Collection from "../../components/Collection";
 import Brands from "../../components/Brands";
 import Designers from "../../components/Designers";
 import About from "../../components/About";
+import Blog from "../../components/Blog";
 import { manIntro } from "../../assets";
 import { mencollection } from "../../service/db";
 const index = () => {
@@ -37,6 +38,12 @@ const index = () => {
             <section>
                 <div className="container">
                    <About/>
+                </div>
+            </section>
+
+            <section>
+                <div className="container">
+                   <Blog/>
                 </div>
             </section>
         </>
