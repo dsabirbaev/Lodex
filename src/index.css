@@ -53,6 +53,18 @@ body {
 }
 
 
+
+@font-face {
+  font-family: MontserratMedium;
+  src: url(./assets/fonts/Montserrat/static/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: MontserratSemiBold;
+  src: url(./assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+
 @font-face {
   font-family: NunitoRegular;
   src: url(./assets/fonts/Nunito_Sans/static/NunitoSans_7pt_SemiExpanded-Regular.ttf);

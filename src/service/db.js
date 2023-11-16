@@ -30,7 +30,11 @@ import {
     bone,
     btwo,
     bthree,
-    bfour
+    bfour,
+    dashboard,
+    design,
+    paintbrush,
+    text
 } from "../assets"
 
 const mencollection = [
@@ -276,7 +280,29 @@ const blog = [
     },
 ];
 
+const menuList = [
+    {
+        id:1,
+        img: design,
+        title: "Design"
+    },
+    {
+        id:2,
+        img: dashboard,
+        title: "Elements"
+    },
+    {
+        id:3,
+        img: text,
+        title: "Text"
+    },
+    {
+        id:4,
+        img: paintbrush,
+        title: "Paint"
+    },
+]
 
 
 
-export {mencollection, womencollection, kidscollection, brands, designers, about, blog};
+export {mencollection, womencollection, kidscollection, brands, designers, about, blog, menuList};

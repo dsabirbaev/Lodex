@@ -10,6 +10,7 @@ import Women from "../pages/Women";
 import Kids from "../pages/Kids";
 import Deal from "../pages/Deal";
 import Rule from "../pages/Rule";
+import PatternPrint from "../pages/PatternPrint";
 import NotFound from "../pages/NotFound";
 
 
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
             {
                 path: "/rule",
                 element: <Rule/>
+            },
+            {
+                path: "/pattern-print",
+                element: <PatternPrint/>
             }
         ]
     }

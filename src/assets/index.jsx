@@ -50,5 +50,16 @@ import btwo from "./images/blog/2.jpg";
 import bthree from "./images/blog/3.jpg";
 import bfour from "./images/blog/4.jpg";
 
+import menu from "./images/menu.png";
+import upload from "./images/upload.png";
+
+import left from "./images/left.png";
+import right from "./images/right.png";
+
+import design from "./images/editor/design.png";
+import paintbrush from "./images/editor/paintbrush.png";
+import text from "./images/editor/text.png";
+import dashboard from "./images/editor/dashboard.png";
+
 export {logo, search, manIntro, womanIntro, kidsIntro, mOne, mTwo, mThree, mFour, mFive, mSix, wOne, wTwo, wThree, wFour, wFive, wSix, kOne, kTwo, kThree, kFour, kFive, kSix, nike, adidas, puma, lacoste, 
-    reebok, designer, bag, check, money, settings, bone, btwo, bthree, bfour};
+    reebok, designer, bag, check, money, settings, bone, btwo, bthree, bfour, menu, upload, left, right, design, text, dashboard, paintbrush};
