@@ -1,21 +1,21 @@
 
 
 .p-tabview-nav-link {
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
-#pr_id_2_header_0{
-    color: #33CAFF;
-}
-#pr_id_2_header_2{
-    background-color: #33CAFF;
-    color: black;
-}
 
+.edit a{
+    background-color: #33CAFF !important;
+    color: black !important;
+}
+.news a{
+    color: #33CAFF !important;
+}
 
 .p-tabview-nav-link{
-    border:none;
+    border:none !important;
 }
 .p-tabview-nav{
-    padding-bottom: 5px;
+    padding-bottom: 5px !important;
 }

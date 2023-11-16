@@ -14,7 +14,7 @@ const index = ({data}) => {
     return (
         <div>
             <TabView>
-                <TabPanel header="Новинки">
+                <TabPanel header="Новинки" className="news">
                     <p className="text-[#949494] text-[10px]">Последние поступления</p>
                     <div className="flex items-center justify-between mb-[62px]">
                         <h2>Новые рисунки</h2>
@@ -61,7 +61,7 @@ const index = ({data}) => {
                         <button className="hover:bg-transparent hover:text-[#33CAFF]  border-transparent hover:border-[#33CAFF] font-['InterMedium'] text-[20px] cursor-pointer py-[13px] px-[12px] bg-[#33CAFF]  rounded-[10px]">Показать Больше</button>
                     </div>
                 </TabPanel>
-                <TabPanel header="Редактировать">
+                <TabPanel header="Редактировать" className="edit">
                     <p className="text-[20px] font-['InterBlack'] text-black">
                         Редактировать
                     </p>
