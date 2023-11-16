@@ -38,6 +38,11 @@ body {
 }
 
 @font-face {
+  font-family: InterSemiBold;
+  src: url(./assets/fonts/Inter/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
   font-family: InterExtraBold;
   src: url(./assets/fonts/Inter/static/Inter-ExtraBold.ttf);
 }

@@ -5,5 +5,6 @@
 
 
 import CardCollection from "./CardCollection";
-
-export {CardCollection};
+import CardAbout from "./CardAbout";
+import CardDesinger from "./CardDesinger"
+export {CardCollection, CardAbout, CardDesinger};
