@@ -3,7 +3,7 @@
 import Intro from "../../components/UI/Intro";
 import Collection from "../../components/Collection";
 import { manIntro } from "../../assets";
-
+import { mencollection } from "../../service/db";
 const index = () => {
     return (
         <>
@@ -15,7 +15,7 @@ const index = () => {
 
             <section>
                 <div className="container">
-                    <Collection/>
+                    <Collection data={mencollection}/>
                 </div>
             </section>
         </>

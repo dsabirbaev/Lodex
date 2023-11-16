@@ -11,11 +11,11 @@ const index = () => {
                     <NavLink to="/"><img src={logo} alt="logo" /></NavLink>
 
                     <ul className="flex items-center gap-x-[50px] text-[16px]">
-                        <li><NavLink to="/">Мужское</NavLink></li>
-                        <li><NavLink to="/women">Женское</NavLink></li>
-                        <li><NavLink to="/kids">Детские</NavLink></li>
-                        <li><NavLink to="/deal">Безопасная Сделка</NavLink></li>
-                        <li><NavLink to="/rule">Правило Пользование</NavLink></li>
+                        <li><NavLink to="/" className="text-black">Мужское</NavLink></li>
+                        <li><NavLink to="/women" className="text-black">Женское</NavLink></li>
+                        <li><NavLink to="/kids" className="text-black">Детские</NavLink></li>
+                        <li><NavLink to="/deal" className="text-black">Безопасная Сделка</NavLink></li>
+                        <li><NavLink to="/rule" className="text-black">Правило Пользование</NavLink></li>
                     </ul>
 
                     <div className="flex items-center gap-x-[43.13px]">

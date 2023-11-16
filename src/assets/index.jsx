@@ -16,4 +16,12 @@ import mFour from "./images/mancollection/4.png";
 import mFive from "./images/mancollection/5.png";
 import mSix from "./images/mancollection/6.png"; 
 
-export {logo, search, manIntro, womanIntro, kidsIntro, mOne, mTwo, mThree, mFour, mFive, mSix};
+
+import wOne from "./images/womancollection/1.png";
+import wTwo from "./images/womancollection/2.png";
+import wThree from "./images/womancollection/3.png";
+import wFour from "./images/womancollection/4.png";
+import wFive from "./images/womancollection/5.png";
+import wSix from "./images/womancollection/6.png"; 
+
+export {logo, search, manIntro, womanIntro, kidsIntro, mOne, mTwo, mThree, mFour, mFive, mSix, wOne, wTwo, wThree, wFour, wFive, wSix};
