@@ -22,9 +22,9 @@ const index = () => {
                         <Heart />
                         <User />
                     </div>
-                    <button className="px-[11px] py-[7px] bg-[#33CAFF] text-[16px] font-['NunitoRegular']">
+                    <a href="tel:+998 ( 99 ) 280 75 76" className="text-black px-[11px] py-[7px] bg-[#33CAFF] text-[16px] font-['NunitoRegular'] border-none cursor-pointer">
                         Contact Us
-                    </button>
+                    </a>
                 </nav>
 
             </div>
