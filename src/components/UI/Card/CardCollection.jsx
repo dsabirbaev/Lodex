@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Check, Cart, CardLike } from "../../Icons";
 
 const CardCollection = ({ data: { img, title, price, status } }) => {
-
+    
     return (
         <div className="w-[300px] rounded-t-[20px] overflow-hidden">
 

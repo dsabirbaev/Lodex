@@ -1,4 +1,6 @@
 
+import { Link } from "react-router-dom";
+
 import {Insta, Facebook} from "../Icons"; 
 
 const index = () => {
@@ -9,29 +11,29 @@ const index = () => {
                     <div className="flex items-center gap-x-[120px]">
                         <ul className="flex flex-col gap-y-[10px] text-[#8C8C8C] text-[15px]">
                             <li className="mb-[15px] font-['InterBlack'] text-[20px] text-black">Категории</li>
-                            <li><a href="#">Мужское</a></li>
-                            <li><a href="#">Женское</a></li>
-                            <li><a href="#">Детское</a></li>
+                            <li><Link className="text-[#8C8C8C]" to="/">Мужское</Link></li>
+                            <li><Link className="text-[#8C8C8C]" to="/women">Женское</Link></li>
+                            <li><Link className="text-[#8C8C8C]" to="/kids">Детское</Link></li>
                         </ul>
                         <ul className="flex flex-col gap-y-[10px] text-[#8C8C8C] text-[15px]">
                             <li className="mb-[15px] font-['InterBlack'] text-[20px] text-black">О нас</li>
-                            <li><a href="#">Контакты</a></li>
-                            <li><a href="#">О компании</a></li>
-                            <li><a href="#">Правила пользования </a></li>
+                            <li><a className="text-[#8C8C8C]" href="#">Контакты</a></li>
+                            <li><a className="text-[#8C8C8C]" href="#">О компании</a></li>
+                            <li><a className="text-[#8C8C8C]" href="#">Правила пользования </a></li>
                         </ul>
                         <ul className="flex flex-col gap-y-[10px] text-[#8C8C8C] text-[15px]">
                             <li className="mb-[15px] font-['InterBlack'] text-[20px] text-black">Мой аккаунт</li>
-                            <li><a href="#">Войти</a></li>
-                            <li><a href="#">Заказы</a></li>
-                            <li><a href="#">Список желаний</a></li>
+                            <li><a className="text-[#8C8C8C]" href="#">Войти</a></li>
+                            <li><a className="text-[#8C8C8C]" href="#">Заказы</a></li>
+                            <li><a className="text-[#8C8C8C]" href="#">Список желаний</a></li>
                         </ul>
                     </div>
 
                     <div>
-                        <ul className="flex flex-col gap-y-[15px] text-[#8C8C8C] text-[15px]">
-                            <li className="mb-[10px] font-['InterBlack'] text-[20px] text-black"><a href="tel:+998 ( 99 ) 280 75 76">+998 ( 99 ) 280 75 76</a></li>
-                            <li><a href="mailto:example@gmail.com">example@gmail.com</a></li>
-                            <li><a href="mailto:example@mail.ru">example@mail.ru</a></li>
+                        <ul className="flex flex-col gap-y-[10px] text-[#8C8C8C] text-[15px]">
+                            <li className="mb-[15px] font-['InterBlack'] text-[20px]"><a className="text-black" href="tel:+998 ( 99 ) 280 75 76">+998 ( 99 ) 280 75 76</a></li>
+                            <li><a className="text-[#8C8C8C]" href="mailto:example@gmail.com">example@gmail.com</a></li>
+                            <li><a className="text-[#8C8C8C]" href="mailto:example@mail.ru">example@mail.ru</a></li>
                             <li className="cursor-pointer flex items-center gap-x-5"><Insta/> <Facebook /></li>
                         </ul>
                     </div>

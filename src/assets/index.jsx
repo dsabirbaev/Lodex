@@ -61,5 +61,7 @@ import paintbrush from "./images/editor/paintbrush.png";
 import text from "./images/editor/text.png";
 import dashboard from "./images/editor/dashboard.png";
 
+import errorPage from "./images/error.gif";
+
 export {logo, search, manIntro, womanIntro, kidsIntro, mOne, mTwo, mThree, mFour, mFive, mSix, wOne, wTwo, wThree, wFour, wFive, wSix, kOne, kTwo, kThree, kFour, kFive, kSix, nike, adidas, puma, lacoste, 
-    reebok, designer, bag, check, money, settings, bone, btwo, bthree, bfour, menu, upload, left, right, design, text, dashboard, paintbrush};
+    reebok, designer, bag, check, money, settings, bone, btwo, bthree, bfour, menu, upload, left, right, design, text, dashboard, paintbrush, errorPage};

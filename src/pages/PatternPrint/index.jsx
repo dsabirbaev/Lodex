@@ -1,14 +1,15 @@
 
-
+import { Link, useLocation } from 'react-router-dom';
 import { BreadCrumb } from 'primereact/breadcrumb';
 import { Editor } from '@tinymce/tinymce-react';
 import { menu, upload, left, right } from "../../assets";
 import { menuList } from "../../service/db";
 import "./style.scss";
 
-const index = () => {
-    const items = [{ label: 'Главная', url: '/' }, { label: 'Мужское' }, { label: 'Футболки' }, { label: 'Pattern Print' }];
+const index = (props) => {
+    const items = [{ label: 'Главная', url: '/' }, { label: 'Мужское', url: '/' }, { label: 'Футболки' }, { label: 'Pattern Print' }];
 
+    
     return (
         <div className='pb-[20px]'>
             <div className="bg-[#00C3CC] pt-[165px] pb-[20px]">
